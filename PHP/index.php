@@ -1,6 +1,4 @@
 <?php
-// Replace this page with your Practice 4 (Lab 3) PHP content.
-// This sample confirms PHP executes inside the container.
 function greet($name) { return "Hello, " . htmlspecialchars($name) . "!"; }
 $name = isset($_GET['name']) ? $_GET['name'] : "Lab 4";
 ?>
